@@ -151,3 +151,48 @@ img {
   background-color: green;
   width: 50%;
 }
+
+.productform {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px;
+  background-color: #f9f9f9;
+  max-height: 500px;
+}
+
+.productform h2 {
+  text-align: center;
+}
+
+.productform div {
+  margin-bottom: 15px;
+}
+
+.productform label {
+  display: inline-block;
+  width: 100px;
+}
+
+.productform input {
+  padding: 5px;
+  width: calc(100% - 110px);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.addproduct {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addproduct:hover {
+  background-color: #0056b3;
+}
